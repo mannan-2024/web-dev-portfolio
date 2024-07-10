@@ -1,0 +1,245 @@
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .header{
+    background-image: url(./images/developer.png),url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 180px 0 230px;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    
+    }
+  nav li {
+    list-style: none;
+    margin-right: 50px;
+  }
+  nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#474747;
+
+  }
+  .btn-primary{
+    background-color:#FD6E0A ;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 18px 35px;
+    font-size: 20px;
+    border: none;
+   
+  }
+  .about-title,.do-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    
+  }
+  .about-description,.do-description{
+    font-size: 18px;
+    font-weight: regular;
+    color:#757575 ;
+    
+  }
+  
+.text-primary{
+    color:#FD6E0A;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin:0 35px 0 230px;
+}
+.banner-content{
+  max-width: 585px;
+}
+.banner-greeting{
+  font-size: 45px;
+  font-weight: SemiBold;
+  color: #474747;
+}
+.banner-title{
+  font-size: 85px;
+  font-weight:Bold;
+  color: #181818;
+}
+.content-decription{
+  font-size: 18px;
+  font-weight:Regular;
+  color: #757575;
+}
+.banner-profile-pic{
+  width: 584px;
+}
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin-top: 130px;
+  text-align: center;
+}
+.do{
+  margin-top: 130px;
+  text-align: center;
+}
+.main{
+  max-width: 1140px;
+  margin:0 auto;
+}
+.item-title{
+  font-weight: regular;
+  font-size: 20px;
+  color:#757575
+}
+.item-description{
+  font-weight: bold;
+  font-size: 20px;
+  color:#474747;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.do-items{
+  display: flex;
+  justify-content: space-around;
+  margin-top:50px;
+  gap:24px;
+}
+.Vanilla-title,.React-title,.Node-title,.Mongo-title{
+  font-weight: bold;
+  font-size: 20;
+  color:#181818;
+}
+.Vanilla-description,.React-description,.Node-description,.Mongo-description{
+  font-weight: regualr;
+  font-size: 16;
+  color:#757575;
+  
+}
+.do-item{
+  text-align: left;
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgb(138, 136, 136);
+}
+.my-resume{
+  text-align: center;
+  margin-top: 100px;
+  
+}
+.my-resume h2{
+  .font-size: 35px;
+font-weight: bold;
+color:#181818;
+}
+.resume-container{
+  display: flex;
+  text-align: left;
+  line-height: 10px;
+}
+.masters{
+  line-height: 15px;
+  margin-top: 50px;
+}
+.masters p{
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: regular;
+  color:#757575;
+}
+.font-end{
+  line-height: 15px;
+  margin-top: 50px;
+}
+.font-end p{
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: regular;
+  color:#757575;
+}
+.education{
+  padding:20px;
+}
+.experience{
+  padding:20px
+}
+.education h3{
+  font-size: 30px;
+  font-weight: bold;
+  color:#474747
+}
+.experience h3{
+  font-size: 30px;
+  font-weight: bold;
+  color:#474747}
+.education h4{
+  font-size: 25px;
+  font-weight: bold;
+  color:#474747;
+}
+.experience h4{
+  font-size: 25px;
+  font-weight: bold;
+  color:#474747;
+}
+.education h5{
+  font-size: 20px;
+  font-weight: semibold;
+  color:#757575;
+}
+.experience h5{
+  font-size: 20px;
+  font-weight: semibold;
+  color:#757575;
+}
+input{
+  margin:50px;
+  
+}
+label{
+  color: #757575;
+  font-size: 16px;
+  font-weight: regular;
+}
+.footer{
+  display: flex;
+  margin:0px 35px 0px 275px;
+}
+.connect,.message{
+  text-align: left;
+  width: 50%;
+  
+  
+}
+
+.connect p{
+  color: #757575;
+  font-size: 16px;
+  font-weight: regular;
+  
+}
+.message h3{
+  color:#181818;
+  font-size: 35px;
+  font-weight: bold;
+}
+.connect h3{
+  color:#181818;
+  font-size: 35px;
+  font-weight: bold;
+}
